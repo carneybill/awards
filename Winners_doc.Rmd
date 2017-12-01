@@ -99,3 +99,23 @@ scw| 2
 raviolli77| 1 
 yonicd| 1 
 yutannihilation| 1 
+
+We missed a week again - we'll use Thanksgiving as an excuse. Week #10 and #11 winners will receive an RStudio t-shirt and all of the hex and RStudio stickers we can find. Special thanks go to @thoughtfulnz & @dlsweet for the idea and improvement of the code. Moving forward the time period will be all-time and not weekly. Additionally, the minimum number of overall likes is greater than 5.
+
+The winners for the week of November 24th & December 1st are:
+
+Name| likes
+------|-----
+martin.R| 60 
+davis| 55 
+baptiste| 51 
+tbradley| 42
+tjmahr| 38 
+pgensler| 24 
+alexilliamson| 12 
+desmonds22| 11 
+pditty| 10 
+Rdatasculptor| 6 
+
+Special help awards will also be sent to dlsweet & thoughtfulnz
+

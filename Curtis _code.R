@@ -64,8 +64,9 @@ users = users %>%
   )
 
 winners <- c(
-  "mara", "alistaire", "daattali", "emilyriederer", "eric_bickel", "nick", "jessemaegan", "raybuhr", "billr", "mmuurr", "apreshill", "pavopax", "mfherman","rensa", "tomtec", "pssguy", "cdr6934", "rpodcast", "Andrea", "timpe", "cderv", "PirateGrunt", "mungojam", "rkahne", "DaveRGP", "danr", "jim89", "nakamichi", "Ranae", "jasonserviss", "FlorianGD", "Damian", "jtr13", "RStudioUser", "robertmitchellv", "jakekaupp", "taraas", "hinkelman", "tyluRp", "Tazinho",  "Anantadinath", "scw",  "raviolli77", "yonicd", "yutannihilation"
+  "mara", "alistaire", "daattali", "emilyriederer", "eric_bickel", "nick", "jessemaegan", "raybuhr", "billr", "mmuurr", "apreshill", "pavopax", "mfherman","rensa", "tomtec", "pssguy", "cdr6934", "rpodcast", "Andrea", "timpe", "cderv", "PirateGrunt", "mungojam", "rkahne", "DaveRGP", "danr", "jim89", "nakamichi", "Ranae", "jasonserviss", "FlorianGD", "Damian", "jtr13", "RStudioUser", "robertmitchellv", "jakekaupp", "taraas", "hinkelman", "tyluRp", "Tazinho",  "Anantadinath", "scw",  "raviolli77", "yonicd", "yutannihilation", "martin.R", "davis", "baptiste", "tbradley", "tjmahr", "pgensler", "alexilliamson", "desmonds22", "pditty", "Rdatasculptor", "dlsweet", "thoughfulnz"
 )
+
 users %>%
   filter(is.na(title), !name %in% winners) %>%
   select(-title) %>%
